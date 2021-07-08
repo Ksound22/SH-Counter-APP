@@ -7,7 +7,7 @@ let count = 0;
 
 // Increase function
 decrease.addEventListener("click", () => {
-  count++;
+  count--;
   updateDisplay();
 
   //   Return count to 0
@@ -18,7 +18,7 @@ decrease.addEventListener("click", () => {
 
 // Decrease function
 increase.addEventListener("click", () => {
-  count--;
+  count++;
   updateDisplay();
 
   //   Return count to 0

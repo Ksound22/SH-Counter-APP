@@ -2,14 +2,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Arial", sans-serif;
 }
 
 .pre-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid green;
-  max-width: 550px;
+  max-width: 620px;
   margin: auto;
   margin-top: 90px;
   height: 550px;
@@ -17,15 +17,15 @@
 }
 
 .counter-container {
-  border: 2px solid #ffffff;
+  border: 2px solid #fff;
   border-radius: 3px;
-  padding: 80px 120px;
+  padding: 60px 110px;
   text-align: center;
-  box-shadow: 0px 0 20px -2px black;
+  box-shadow: 0px 10px 10px -2px black;
 }
 
-.increase {
-  margin-bottom: 15px;
+.decrease {
+  margin-bottom: 18px;
 }
 
 .number {
@@ -39,13 +39,13 @@
 }
 
 button {
-  background: #272181;
-  padding: 5px;
+  background: #171350;
+  padding: 10px;
   border-radius: 6px;
   outline: none;
   color: #fff;
-  box-shadow: 0px 0 20px -2px black;
-  transition: 0.5s;
+  box-shadow: 0px 10px 10px -2px black;
+  transition: 0.2s;
 }
 
 button:hover {
